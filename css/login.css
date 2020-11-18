@@ -1,0 +1,73 @@
+html,body {
+    height: 100%;
+    text-align: center;
+}
+div#pagina {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -50px;
+    text-align: center;
+}
+div#intestazione {
+    position: relative;
+    top: 50px;
+}
+div#corpo {
+    position: relative;
+    top: 80px;
+    font-size: 22px;
+}
+span#titolo {
+    font-size: 72px;
+}
+span#sottotitolo {
+    font-size: 32px;
+}
+div.container {
+    position: relative;
+    top: 15px;
+}
+span#cp {
+    position: relative;
+    left: -280px;
+}
+div#incorrect_input {
+    position: relative;
+    top: 50px;
+    font-size: 22px;
+    color: #FF0000;
+}
+footer {
+    background-color: #F06E73;
+    height: 50px;
+    clear: both;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+/* label color */
+.input-field label {
+    color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
+}

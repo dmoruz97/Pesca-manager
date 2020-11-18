@@ -1,0 +1,212 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto";
+}
+div#pagina {
+    background-color: #E0F5FD;
+}
+div.container {
+    position: relative;
+    top: 15px;
+}
+footer {
+    background-color: #F06E73;
+    height: 50px;
+    clear: both;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+header {
+    background-color: #2196F3;
+    text-align: center;
+    height: 250px;
+}
+span#user {
+    font-size: 24px;
+}
+div#utente {
+    position: absolute;
+    right: 50px;
+    top: 120px;
+    font-size: 20px;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+div#giorno {
+    position: absolute;
+    right: 50px;
+    top: 200px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+div#titolo {
+    position: absolute;
+    left: 620px;
+    top: 15px;
+    color: #FFFFFF;
+    font-size: 62px;
+}
+div#corpo {
+    height: 500px;
+}
+div#barra_sup {
+    height: 50px;
+    background-color: #F06E73;
+}
+div#scelta {
+    font-size: 26px;
+    background-color: #FAFAFA;
+    width: 300px;
+    height: inherit;
+    text-align: center;
+    padding: 10px;
+}
+div#titolo_scelta {
+    position: relative;
+    top: -50px;
+    left: 300px;
+    height: inherit;
+    width: 500px;
+    margin-left: 50px;
+    color: #FFFFFF;
+    font-size: 34px;
+}
+div#contenuto {
+    height: inherit;
+    background: #FAFAFA;
+}
+div#menu {
+    width: 300px;
+    height: inherit;
+    font-size: 24px;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+div.azione {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+div.azione:hover {
+    background-color: #E3E3E3;
+    cursor: pointer;
+}
+div#contesto {
+    position: relative;
+    left: 300px;
+    height: 450px;
+    bottom: 500px;
+    overflow-y: scroll;
+}
+a:hover {
+    cursor: pointer;
+}
+div#messaggio_iniziale {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 350px;
+    left: 42%;
+    padding: 20px;
+    font-size: 32px;
+    text-align: center;
+    background-color: #E3E3E3;
+    border-radius: 10px;
+    -moz-border-radius: 10px; /* firefox */
+    -webkit-border-radius: 10px; /* safari, chrome */
+}
+div.warning {
+    font-size: 32px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+a#pulsante_add {
+    position: absolute;
+    right: 100px;
+    top: 275px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #03A69B;
+    visibility: hidden;
+}
+img#print_imm {
+    position: absolute;
+    right: 30px;
+    top: 255px;
+}
+img#print_imm:hover {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    top: 253px;
+    right: 28px;
+}
+nav#nav_tag {
+    width: 250px;
+    visibility: hidden;
+}
+div#nav_wrapper_id {
+    width: 250px;
+    background-color: #FFFFFF;
+}
+div#box_ricerca {
+    position: absolute;
+    left: 850px;
+    top: 250px;
+    text-align: center;
+    z-index: 3;
+}
+img#imm_lente {
+    position: relative;
+    margin-bottom: 10px;
+}
+img#imm_lente2 {
+    position: relative;
+    margin-bottom: 10px;
+}
+span.bold {
+    color: #F06E73;
+}
+div#risultato {
+    position: relative;
+    text-align: left;
+    left: 380px;
+    top: -20px;
+}
+img.imm_actions {
+    position: relative;
+    top: -5px;
+}
+img.imm_actions:hover {
+    position: relative;
+    top: -5px;
+    width: 35px;
+    height: 35px;
+}
+th.th_class {
+    width: 200px;
+}
+div#ricerca_sup {
+    position: absolute;
+    top: 250px;
+    left: 860px;
+    height: 50px;
+    width: 200px;
+    background-color: #FFFFFF;
+    visibility: hidden;
+}
+input#my_search {
+    background-color: #FFFFFF;
+    position: relative;
+    left: 40px;
+    top: -56px;
+    height: 50px;
+    z-index: 3;
+}
+span#totale {
+    font-size: 28px;
+}
